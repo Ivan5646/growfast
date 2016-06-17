@@ -1,7 +1,7 @@
 $(document).ready ->
   $('.button').click ->
     $('#dialog').dialog({
-      minWidth: 939,
+      minWidth: 938,
       minHeight: 692,
       modal: true
     });
