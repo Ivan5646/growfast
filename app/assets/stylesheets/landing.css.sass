@@ -94,11 +94,11 @@ body
       margin-top: 50px
 
   #dialog
-    display: none
+    // display: none
     border: 2px solid rgb(251, 173, 28)
     border-radius: 10px
-    position: absolute
-    top: 2000px /* remove property */
+    // position: absolute
+    // top: 2000px /* remove property */
     #top
       font-family: 'mullerbold'
       font-size: 32px
@@ -116,24 +116,34 @@ body
         color: #fbad1c
       p:first-child
         border: 1px solid rgb(251, 173, 28)
-        border-radius: 40px
+        border-radius: 30px
         background-color: rgb(251, 173, 28)
         color: white
       p:nth-child(2)
         margin-left: -28px
         border-left: none
-        border-radius: 0px 40px 40px 0px
+        border-radius: 0px 30px 30px 0px
       p:nth-child(3)
         margin-left: -28px
         border-left: none
-        border-radius: 0px 40px 40px 0px
+        border-radius: 0px 30px 30px 0px
     #bottom
       font-size: 27px
+    .price-list
     .btns
       font-size: 27px
-      background-image: asset_url('landing/next-btn.png')
-      background-repeat: no-repeat
+      background-color: rgb(251, 173, 28)
       color: white
+      border-radius: 30px
+      width: 274px
+      height: 64px
+      box-shadow: 0px 5px #996515
+      #btn-text
+        font-family: MullerBold
+        text-transform: uppercase
+        display: inline-block
+        margin: 16px 93px /* ? */
+
 
 
 
